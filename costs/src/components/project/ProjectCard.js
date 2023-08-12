@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./ProjectCard.module.css";
-import { BsPencil, BsFillTrashFill, BsPen } from "react-icons/bs";
+import { BsPencil, BsFillTrashFill } from "react-icons/bs";
 
 function ProjectCard({ id, name, budget, category, handleRemove }) {
 	return (
